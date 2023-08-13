@@ -41,12 +41,14 @@ export const Home = () => {
               fontFamily={'Dancing Script'}
               fontSize={['30px', '40px', '50px', '60px']}
             >
-              Create new contact !
-              <Lottie
-                animationData={phonebookicon}
-                loop={true}
-                style={{ height: 390 }}
-              />
+              <Flex flexDirection="column" alignItems="center">
+                Create new contact !
+                <Lottie
+                  animationData={phonebookicon}
+                  loop={true}
+                  style={{ height: 390 }}
+                />
+              </Flex>
             </Box>
           </Link>
         )}
